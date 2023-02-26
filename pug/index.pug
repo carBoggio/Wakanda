@@ -1,0 +1,54 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./CSS/styles.css")
+        link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css")
+        link(rel="preconnect", href="https://fonts.googleapis.com")
+        link(rel="preconnect", href="https://fonts.gstatic.com" crossorigin)
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400;1,500&display=swap")
+        
+        title Document
+    body 
+        header.header 
+            
+            .logo 
+                .logo__content
+                    img(src="./CSS/img/logo-w.svg", alt="logo").logo__img
+                
+                i(class="ri-menu-line logo-ham__img")
+            nav.nav 
+
+                p.nav-item Home
+                p.nav-item About us
+                p.nav-item How it works 
+                p.nav-item For Freelancer
+                
+                button(class="nav__button") Get started
+            
+        
+        main.main 
+            .pad-container
+                .box-1 
+                    h1.box-1__h1 Recruit top talented freelancer for your business
+                    p.box-1__p Connect you to thoudsands of talented freelancer from any industry. You can have the best people in just few simple steps.
+                    button.box-1__button Get started
+                .box-2 
+                    img(src="./CSS/img/handsome-businessman-suit-glasses-cross-arms-chest-look 1.png", alt="foto").box-2__img-1
+                    img(src="./CSS/img/wave.svg", alt="wave").box-2__img-2
+                    
+            .box-3 
+                - var lista = ["Search and hire the most talented freelancers to match your needs. No matter what you need done, we've got the perfect freelancer for you.", "You have any concerns or questions? Don’t worry, we have our support team to help you at anytime and anywhere.", "Search and hire the most talented freelancers to match your needs. No matter what you need done, we've got the perfect freelancer for you."];
+                 for i, n in ["Professional & Fast", "24-7 support", "FastSafe & Secure"]
+                 
+                    div( class="box-3__grid-item" class="item-" + n)
+                        img(src="./CSS/img/icon-" + i + ".svg", alt="check").box-3__img
+                        .box-3__text 
+                            h1.box-3__title=i
+                            p.box-3__p=lista[n]
+
+        script(src="./JS/script.js") 
+
+

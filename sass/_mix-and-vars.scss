@@ -1,0 +1,28 @@
+
+
+$main-color: #0077C0;
+
+
+@mixin button ($font-color, $bg-color){
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.33333px 12.4444px;
+    gap: 7.11px;
+    
+    width: 16rem;
+    height: 4.5rem;
+    color: $font-color;
+    background: $bg-color;
+    border-radius: 4.44444px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 18px;
+    /* identical to box height, or 148% */
+
+    text-align: center;
+    letter-spacing: 0.055em;
+}
