@@ -1,0 +1,26 @@
+.logo-ham__img {
+  display: none;
+}
+
+.nav {
+  position: static;
+  height: 7rem;
+  flex-direction: row;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  width: 70%;
+  margin-left: 1rem;
+  width: 80%;
+  margin: 1rem;
+  max-width: 680px;
+}
+.nav-item {
+  font-size: 1.8rem;
+}
+
+.logo {
+  width: 30%;
+}/*# sourceMappingURL=styles-medium.css.map */

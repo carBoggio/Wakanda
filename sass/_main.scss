@@ -70,14 +70,14 @@ $toTop: -18rem;
     &__img-1 {
         position: absolute;
         width: 20rem;
-        left: calc(100% - 15rem);
+        left: calc(100% - 16rem);
         top: $toTop;
         z-index: 20;
     }
     &__img-2 {
         position: absolute;
         width: 24rem;
-        left: calc(100% - 18rem);
+        left: calc(100% - 20rem);
         top: $toTop;
         z-index: -1;
     }
@@ -86,17 +86,17 @@ $toTop: -18rem;
 
 
 .box-3 {
-    margin-top: calc(($toTop * -1) + 2.3rem);
+    margin-top: calc(($toTop * -1) - 4.9rem);
     background: $bg-color-cards;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     padding:  $padding;
     justify-content: center;
 
     &__img {
-        height: 5rem;
-        width: 5rem;
+        height: 5.5rem;
+        width: 5.5rem;
         margin-bottom: 6.5rem;
         @media (min-width: 440px) {
             width: 10rem;
@@ -112,7 +112,7 @@ $toTop: -18rem;
         grid-column: 1/2;
         align-items: center;
         justify-items: center;
-        margin-top: 4rem;
+        margin-top: 5rem;
         max-width: 470px;
         
     }
@@ -140,4 +140,8 @@ $toTop: -18rem;
     color: $p-color;
 
     }
+ }
+
+ .item-2 {
+    margin-bottom: 4rem;
  }

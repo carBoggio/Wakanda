@@ -524,30 +524,30 @@ body {
 .box-2__img-1 {
   position: absolute;
   width: 20rem;
-  left: calc(100% - 15rem);
+  left: calc(100% - 16rem);
   top: -18rem;
   z-index: 20;
 }
 .box-2__img-2 {
   position: absolute;
   width: 24rem;
-  left: calc(100% - 18rem);
+  left: calc(100% - 20rem);
   top: -18rem;
   z-index: -1;
 }
 
 .box-3 {
-  margin-top: 20.3rem;
+  margin-top: 13.1rem;
   background: #0077C0;
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: auto;
   padding: 0 4rem 0 4rem;
   justify-content: center;
 }
 .box-3__img {
-  height: 5rem;
-  width: 5rem;
+  height: 5.5rem;
+  width: 5.5rem;
   margin-bottom: 6.5rem;
 }
 @media (min-width: 440px) {
@@ -562,7 +562,7 @@ body {
   grid-column: 1/2;
   align-items: center;
   justify-items: center;
-  margin-top: 4rem;
+  margin-top: 5rem;
   max-width: 470px;
 }
 .box-3__text {
@@ -587,4 +587,8 @@ body {
   line-height: 17px;
   /* or 128% */
   color: #FAFAFA;
+}
+
+.item-2 {
+  margin-bottom: 4rem;
 }/*# sourceMappingURL=styles.css.map */
