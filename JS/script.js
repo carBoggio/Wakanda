@@ -9,11 +9,11 @@ toggle.addEventListener("click", () => {
     nav.classList.toggle("rigth");
         if (nav.classList.contains("rigth")){
             body.classList.remove("hidden");
-            carusel.classList.remove("display-none");
+           
         }
         else {
             body.classList.add("hidden");
-            carusel.classList.add("display-none");
+            
         }
         
     });

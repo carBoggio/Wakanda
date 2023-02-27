@@ -41,15 +41,38 @@ html(lang="en")
                     img(src="./CSS/img/handsome-businessman-suit-glasses-cross-arms-chest-look 1.png", alt="foto").box-2__img-1
                     img(src="./CSS/img/wave.svg", alt="wave").box-2__img-2
                     
+                .box-2-2 
+                    for i in [1, 2, 3, 4, 5]
+                        img(src="./CSS/img/logo" + i + ".svg", alt="log").box-2-2__img
+            .box-3__the-title-box
+                h4.box-3__sub-title FEATURE
+                h1.box-3__title-principal The benefit of using our platform            
             .box-3 
+                
+
                 - var lista = ["Search and hire the most talented freelancers to match your needs. No matter what you need done, we've got the perfect freelancer for you.", "You have any concerns or questions? Don’t worry, we have our support team to help you at anytime and anywhere.", "Search and hire the most talented freelancers to match your needs. No matter what you need done, we've got the perfect freelancer for you."];
                  for i, n in ["Professional & Fast", "24-7 support", "FastSafe & Secure"]
                  
                     div( class="box-3__grid-item" class="item-" + n)
                         img(src="./CSS/img/icon-" + i + ".svg", alt="check").box-3__img
-                        .box-3__text 
-                            h1.box-3__title=i
-                            p.box-3__p=lista[n]
+                        
+                        h1.box-3__title=i
+                        p.box-3__p=lista[n]
+
+            .pad-container
+                .box-4 
+                    
+                    img(src="./CSS/img/cartilla-medium.svg", alt="cartilla").box-4__img-item-medium
+
+                    img(src="./CSS/img/plantilla.svg", alt="plantilla").box-4__img-item
+                    .box-4__text-box
+                        .box-4__title Wakanda is an easy platform to find talent
+                        .box-4__num-container
+                        - var listSteps = ["Sign in to our website", "Fill out neccesary information", "Discover thoudsands of freelancers", "View freelancer’s profile and hire", "Complete payment & it’s time to work!"]
+                        for i, n in [1, 2, 3, 4, 5]
+                            .box-4__item 
+                                img(src="./CSS/img/icon-number-" + i + ".svg", alt="number").box-4__item-img
+                                p.box-4__p=listSteps[n]
 
         script(src="./JS/script.js") 
 
