@@ -713,4 +713,137 @@ body {
   .box-4__img-item {
     display: none;
   }
+}
+.footer {
+  background: #1D242B;
+  padding: 0 4rem 0 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem 0;
+  padding-bottom: 5rem;
+}
+
+.logo-and-links {
+  margin: 0 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  width: 30rem;
+  flex-direction: column;
+  padding: 4rem 0 4rem 0;
+}
+.logo-and-links__img {
+  width: 20rem;
+}
+.logo-and-links__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  flex-direction: row;
+}
+.logo-and-links__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-feature-settings: "salt" on, "liga" off;
+  text-align: center;
+  color: #D9DBE1;
+}
+
+.social-logo {
+  width: 4rem;
+}
+
+.box-f-2 {
+  display: flex;
+  gap: 5rem;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-direction: column;
+  text-align: left;
+}
+.column__h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 13px;
+  font-feature-settings: "salt" on, "liga" off;
+  text-align: left;
+  color: #FFFFFF;
+}
+.column__p {
+  text-align: left;
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  line-height: 13px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #FFFFFF;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto";
+}
+
+.input {
+  min-height: 50px;
+  max-width: 150px;
+  padding: 0 1rem;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid white;
+  border-radius: 6px 0 0 6px;
+  background-color: transparent;
+}
+
+.button--submit {
+  min-height: 50px;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  background-color: white;
+  color: #171616;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button--submit:hover {
+  background-color: white;
+}
+
+.input:focus, .input:focus-visible {
+  border-color: white;
+  outline: none;
+}
+
+.input-site {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 5rem;
+}
+
+.input-siteh1__h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.1124px;
+  line-height: 19px;
+  font-feature-settings: "salt" on, "liga" off;
+  align-items: center;
+  color: #FFFFFF;
 }/*# sourceMappingURL=styles.css.map */

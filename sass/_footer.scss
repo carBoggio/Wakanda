@@ -1,0 +1,85 @@
+@use "main.scss";
+.footer {
+    background: #1D242B; 
+    padding: main.$padding;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem 0 ;
+    padding-bottom: 5rem;
+}
+
+
+.logo-and-links {
+    margin: 0 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    width: 30rem;
+    flex-direction: column;
+    padding: 4rem 0 4rem 0;
+    &__img {
+        width: 20rem;
+
+    }
+    &__links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        flex-direction: row;
+    }
+    &__text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        font-feature-settings: 'salt' on, 'liga' off;
+        text-align: center;
+
+        
+
+        color: #D9DBE1;
+    }
+}
+.social-logo {
+    width: 4rem;
+}
+
+.box-f-2 {
+    display: flex;
+
+    gap: 5rem
+}
+.column {
+    display: flex;
+    
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+    text-align: left;
+    &__h1 {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 13px;
+        font-feature-settings: "salt" on, "liga" off;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    &__p {
+        text-align: left;
+        font-family: "Roboto";
+        font-size: 1.2rem;
+        line-height: 13px;
+        font-feature-settings: "salt" on, "liga" off;
+        color: #FFFFFF;
+    }
+}
+
+
+

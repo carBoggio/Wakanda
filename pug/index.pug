@@ -74,6 +74,34 @@ html(lang="en")
                                 img(src="./CSS/img/icon-number-" + i + ".svg", alt="number").box-4__item-img
                                 p.box-4__p=listSteps[n]
 
+        footer.footer
+
+            .box-f-1 
+                .logo-and-links
+                    img(src="./CSS/img/Logo-white.svg", alt="logo-white").logo-and-links__img
+
+                    .logo-and-links__links
+                        for i, n in [1, 2, 3, 4]
+                            img(src="./CSS/img/social-fot-" + i + ".svg", alt="logo-social-media").social-logo
+
+                    p.logo-and-links__text Copyright © 2022 Wakanda. All rights reserved
+
+            .box-f-2 
+                .column
+                    h1.column__h1 Company
+                    for i in ["About us", "Blog", "Contact us", "How it works", "For freelancer"]
+                        p.column__p=i
+                .column
+                    h1.column__h1 Support 
+                    for i in ["Help center", "Terms of service", "Legal", "Privacy policy", "Status"]
+                        p.column__p=i
+            .input-site
+                h1.input-siteh1__h1 Subscribe to our newsletter
+                .input-group
+                    input(type="email" class="input" id="Email" name="Email" placeholder="uiverse@verse.io" autocomplete="off")
+                    input( class="button--submit" value="Subscribe" type="submit")
+
+
         script(src="./JS/script.js") 
 
 
