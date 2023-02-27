@@ -1,0 +1,18 @@
+.pad-container, .header {
+  padding: 0 15rem 0 15rem;
+}
+
+.box-2__img-1 {
+  position: absolute;
+  width: 26rem;
+  left: calc(100% - 34rem);
+  top: -33rem;
+  z-index: 20;
+}
+.box-2__img-2 {
+  position: absolute;
+  width: 30rem;
+  left: calc(100% - 15rem);
+  top: -30rem;
+  z-index: -1;
+}/*# sourceMappingURL=styles-big.css.map */

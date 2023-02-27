@@ -6,6 +6,8 @@ $bg-color-cards:#0077C0;
 $padding: 0 4rem 0 4rem;
 $title-font-size: 2.66667rem;
 
+
+
 .pad-container {
     padding:  $padding;
 }
@@ -102,6 +104,27 @@ $toTop: -26rem;
         width: 15rem;
         
     }
+}
+
+@media (min-width: 800px) {
+    .box-2 {
+
+
+        &__img-1 {
+            position: absolute;
+            width: 26rem;
+            left: calc(100% - 34rem);
+            top: -33rem;
+            z-index: 20;
+        }
+        &__img-2 {
+            position: absolute;
+            width: 29rem;
+            left: calc(100% - 25rem);
+            top: -30rem;
+            z-index: -1;
+        }
+        }
 }
 
 .box-3 {
@@ -217,6 +240,7 @@ $toTop: -26rem;
     &__img-item {
         position: absolute;
     }
+
 
     // contendor con items --------------------
 
