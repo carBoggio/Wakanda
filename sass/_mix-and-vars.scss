@@ -1,7 +1,7 @@
 
 
 $main-color: #0077C0;
-
+$bg-color-2: #C7EEFF;
 
 @mixin button ($font-color, $bg-color){
     display: flex;
@@ -25,4 +25,13 @@ $main-color: #0077C0;
 
     text-align: center;
     letter-spacing: 0.055em;
+    &:hover {
+        cursor: pointer;
+        transform: translateY(-6px);
+        transition: transform
+           250ms
+           cubic-bezier(.3, .7, .4, 1.5);
+    }
 }
+
+

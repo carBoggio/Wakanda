@@ -117,15 +117,15 @@ body {
     cursor: pointer;
 
 }
-.nav-item:hover, .nav__button:hover, .box-1__button:hover {
-    cursor: pointer;
-    transform: translateY(-6px);
-    transition: transform
-       250ms
-       cubic-bezier(.3, .7, .4, 1.5);
+// .nav-item:hover, .nav__button:hover, .box-1__button:hover {
+//     cursor: pointer;
+//     transform: translateY(-6px);
+//     transition: transform
+//        250ms
+//        cubic-bezier(.3, .7, .4, 1.5);
     
-}
-.nav__button:hover, .box-1__button:hover {
+// }
+.nav__button:hover, .box-1__button:hover, .box-5-text-and-button__button {
 background: #00578d;
     
 }

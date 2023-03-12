@@ -23,4 +23,13 @@
 
 .logo {
   width: 30%;
+}
+
+.box-3__img {
+  width: 7rem;
+}
+
+.box-4 {
+  gap: 0 19rem;
+  margin: 9rem 0 9rem 0;
 }/*# sourceMappingURL=styles-medium.css.map */
