@@ -368,7 +368,7 @@ $toTop: -26rem;
         align-content: center;
         justify-content: center;
         gap: 5rem;
-        max-width: 1120px;
+        max-width: 1220px;
         margin: auto;
     }
     
@@ -417,7 +417,8 @@ $toTop: -26rem;
     width: 30rem;
     background: white;
     padding: 3rem;
-    border-radius: 3px;
+    border-radius: 5px;
+    margin: 0 2rem 0 2rem;
     box-shadow: 0px 1px 13px rgba(0,0,0,0.1);
     &__text { 
         font-family: 'Roboto';
