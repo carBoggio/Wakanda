@@ -919,6 +919,100 @@ body {
   color: #000000;
 }
 
+.box-7 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 100%;
+  justify-content: center;
+}
+.box-7__container {
+  flex-wrap: wrap;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background: #0077C0;
+  width: calc(100% - 8rem);
+  max-width: 1080px;
+  gap: 4rem;
+  padding: 4rem 0 0 0;
+  margin-bottom: 4rem;
+}
+.box-7__img {
+  width: 90%;
+  max-width: 433px;
+  order: 2;
+}
+.box-7__text {
+  order: 3;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 45rem;
+  gap: 3rem;
+}
+.box-7__p {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 100;
+  font-size: 2rem;
+  line-height: 8px;
+  /* identical to box height */
+  letter-spacing: 1.33333px;
+  color: #FFFFFF;
+}
+.box-7__h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 125%;
+  /* or 27px */
+  color: #FFFFFF;
+}
+.box-7__button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.33333px 12.4444px;
+  gap: 7.11px;
+  width: 16rem;
+  height: 4.5rem;
+  color: #0077C0;
+  background: white;
+  border-radius: 4.44444px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 18px;
+  /* identical to box height, or 148% */
+  text-align: center;
+  letter-spacing: 0.055em;
+  margin-bottom: 3rem;
+}
+.box-7__button:hover {
+  cursor: pointer;
+  transform: translateY(-6px);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+
+@media (max-width: 600px) {
+  .box-7__text {
+    padding: 0 2rem 0 2rem;
+  }
+  .box-7__p {
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+  .box-6__h2 {
+    text-align: center;
+    padding: 2rem;
+  }
+}
 .footer {
   background: #1D242B;
   padding: 0 4rem 0 4rem;
@@ -1003,6 +1097,7 @@ body {
 
 .input {
   min-height: 50px;
+  max-width: 18rem;
   padding: 0 1rem;
   color: #fff;
   font-size: 15px;
